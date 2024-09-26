@@ -1,0 +1,217 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, input {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+body {
+    font-size: calc(1rem + 0.390625vw);
+}
+
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+header div {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 3vh;
+    line-height: 12vh;
+    font-weight: 600;
+    
+}
+
+#let-me-see {
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+#header-open {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 25px;
+    
+}
+header p {
+    background-color: black;
+    padding: 5px 10px;
+}
+
+/* MAIN */
+/* SECTION THE MENU */
+
+#the-menu {
+    width: 100vw;
+    background-color: black;
+    padding-bottom: 10rem;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: lighter;
+    padding: 4rem 0;
+}
+
+#choix-menu {
+    font-size: 2.5rem;
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px #ffffff;
+    /* border: 0.1px solid white; */
+}
+
+#liste-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+#liste-menu li {
+    width: 33.33%;
+    padding: 1rem 0;
+}
+
+#liste-menu li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.meal-description {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.name-price p {
+    background-color: rgb(107, 105, 105);
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.meal-description>p {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 1rem 1.5rem 1.5rem 0;
+    line-height: 4rem;
+}
+
+.meal-description p { 
+    border-bottom: 1px rgb(247, 235, 235) solid;
+}
+
+#noborder {
+    border-bottom: none;
+}
+
+.hot, .new {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-weight: lighter;
+}
+
+.hot {
+    background-color: red;
+    color: white;
+}
+
+.new {
+    background-color: rgb(163, 161, 161);
+    
+}
+
+/* SECTION ABOUT */
+
+#about {
+    width: 100vw;
+    background-color: rgb(93, 107, 93);
+    color: white;
+}
+
+#text-about {
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#text-about div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 -3rem 0;
+}
+
+#text-about div img {
+    border-radius: 48%;
+    width: 45%;
+    max-width: 200px;
+    margin-right: 5vw;
+}
+#text-about div p, .texte-chef {
+    width: 50%;
+}
+
+#photo-restaurant {
+    padding: 5vh 0;
+}
+
+.texte-gras {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 5vh;
+}
+
+#planning {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    list-style-type: none;
+    line-height: 6vh;
+}
+
+#planning span {
+    position: absolute;
+    left: 50vw;
+}

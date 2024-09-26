@@ -1,0 +1,7 @@
+﻿- the menu doit afficher au survol de chacun des onglets le contenu correspondand en dessous
+- la navbar doit être fixed, avec une opacité noire à 0.5 et au survol à 1.
+- le bouton menu de la navbar au survol doit afficher un sous-menu avec les 3 catégories correspondantes => effet toggle
+  sans utiliser de select. 
+- le survol de chaque plat doit faire apparaitre une ombre portée autour de lui.
+- le background color des étiquettes du menu doit-être gerer avec des variables en tête de css.
+- vous devrez utiliser une api map à la place de la vue aerienne.

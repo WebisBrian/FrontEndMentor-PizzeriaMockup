@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "amaticsc";
+    src: url(../font/amaticsc.woff2);
+}
+
+body {
+    font-family: "amaticsc", sans-serif;
+}
