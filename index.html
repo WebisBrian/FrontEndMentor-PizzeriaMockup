@@ -19,12 +19,12 @@
         <nav id="menu">
             <input type="checkbox" id="check-burger">
             <ul>
-                <li>HOME</li>
-                <li>MENU</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li><a href="#menu">HOME</a></li>
+                <li><a href="#the-menu">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
-            
+
             <label for="check-burger" id="burger">
                 <i class="fa-solid fa-pizza-slice"></i>
             </label>
@@ -92,7 +92,9 @@
         <section id="about">
             <h2>About</h2>
             <div id="text-about">
-                <p  >The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div>
                     <p><span class="texte-gras">The Chef?</span> Mr. Italiano himself</p>
                     <img src="./maquette_pizza/assets/img/chef.jpg" alt="">
@@ -102,13 +104,38 @@
                 <h4>Opening Hours</h4>
                 <div id="planning">
                     <p>Mon & Tue CLOSED<span>Friday 10:00 - 12:00</span></p>
-                    <p>Wednesday 10.00 - 24.00<span>Saturday 10:00 - 23:00</span></p> 
+                    <p>Wednesday 10.00 - 24.00<span>Saturday 10:00 - 23:00</span></p>
                     <p>Thursday 10:00 - 24:00<span>Sunday Closed</span></p>
                 </div>
             </div>
+
+        </section>
+        <section id="map">
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=2.43847131729126%2C49.972256746321364%2C2.4563884735107426%2C49.97821827225306&amp;layer=mapnik&amp;marker=49.97523760160972%2C2.447429895401001"
+                style="border: 1px solid black"></iframe>
+        </section>
+        <section id="contact">
+
+            <h2>Contact</h2>
+            <p>Find us at some address at some place or call us at 05050515-122330</p>
+            <p><span class="text-border">FYI!</span> We offer full-service catering for any event, large or small. We
+                understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look
+                and taste.</p>
+            <p class="texte-grand"><span class="texte-gras">Reserve</span> a table, ask for today's special or just send
+                us
+                a message:</p>
+            <form action="">
+                <div><input type="text" value="Name"></div>
+                <div><input type="text" value="How many people"></div>
+                <div><input type="datetime-local"></div>
+                <div><input type="text" value="Message \ Special requirements"></div>
+                <div id="submit"><input type="submit" value="SEND MESSAGE"></div>
+            </form>
         </section>
     </main>
-
+    <footer>
+        <p class="texte-grand">Powered by</p>
+    </footer>
 </body>
 
 </html>
